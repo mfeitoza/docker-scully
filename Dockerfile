@@ -1,6 +1,6 @@
 FROM node:14
 
-RUN apt-get add --no-cache \
+RUN apt-get install  \
       chromium \
       nss \
       freetype \
