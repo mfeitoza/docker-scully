@@ -1,6 +1,6 @@
 FROM node:14
 
-RUN apt-get install -y  \
+RUN apt-get update && apt-get install -y  \
       chromium 
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
