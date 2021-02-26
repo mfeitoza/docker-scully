@@ -1,6 +1,6 @@
 FROM node:14
 
-RUN apk add --no-cache \
+RUN apt-get add --no-cache \
       chromium \
       nss \
       freetype \
